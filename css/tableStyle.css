@@ -1,0 +1,24 @@
+#tableContainer{
+    overflow-x: auto;
+  }
+tr>th:first-child,tr>td:first-child {
+    position: sticky;
+    left: 0;
+    background:white;
+  }
+tr>th:last-child,tr>td:last-child {
+    position: sticky;
+    right: 0;
+    background:white
+  }
+
+thead>tr:nth-child(2)>th:first-child,tr>th:last-child {
+    border-bottom: 1px solid black
+}
+tr>td:first-child,tr>td:last-child {
+    border-bottom-width:1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.blank {
+      border:none
+  }
