@@ -53,6 +53,7 @@ class formManager {
         let InputHtml = `<div id="${n}input"class="mb-3">
         <label for="set${n}">${this.setNumber[n-1]} set:</label><br>
         <input required min="1" max="100" type="number" id="set${n}" name="${this.setNumber[n-1]} set" placeholder="reps" class="form-control">
+        <div class="invalid-feedback">no you didn't</div>
         </div>
         <div id="nextinput">
         </div>`
